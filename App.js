@@ -5,6 +5,7 @@ import HomeScreen from './screens/HomeScreen'
 import DetailsScreen from './screens/DetailsScreen'
 import ActivityIndicatorScreen from './screens/ActivityIndicatorScreen'
 import FlatListScreen from './screens/FlatListScreen'
+import ImageScreen from './screens/ImageScreen'
 
 
 
@@ -21,6 +22,9 @@ const RootStack = createStackNavigator(
     },
     Flat: {
       screen: FlatListScreen,
+    },
+    Image: {
+      screen: ImageScreen,
     }
   },
   {

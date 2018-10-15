@@ -22,6 +22,11 @@ class HomeScreen extends Component {
               title="Go to FlatList"
               onPress={() => this.props.navigation.navigate('Flat')}
             />
+
+        <Button 
+              title="Go to Image"
+              onPress={() => this.props.navigation.navigate('Image')}
+            />
       </View>
     );
     return (
