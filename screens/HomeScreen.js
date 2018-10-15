@@ -10,15 +10,16 @@ class HomeScreen extends Component {
 
   render () {
     var navigationView = (
-      <View style={{flex: 1, backgroundColor: '#fff'}}>
+      <View style={{flex: 1, backgroundColor: '#fff', padding: 10}}>
         <Text style={{margin: 10, fontSize: 15, textAlign: 'left'}}>This is the DrawerLayoutAndroid Navigation!</Text>
 
         <Button 
               title="Go to ActivityIndicator"
+             
               onPress={() => this.props.navigation.navigate('Activity')}
             />
            
-        <Button 
+        <Button style = {{borderWidth: 50}}
               title="Go to FlatList"
               onPress={() => this.props.navigation.navigate('Flat')}
             />
@@ -31,6 +32,11 @@ class HomeScreen extends Component {
         <Button 
               title="Go to KeyboardAvoingView"
               onPress={() => this.props.navigation.navigate('Keyboard')}
+            />
+
+        <Button 
+              title="Go to Modal"
+              onPress={() => this.props.navigation.navigate('Modal')}
             />
       </View>
     );

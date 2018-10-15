@@ -7,6 +7,7 @@ import ActivityIndicatorScreen from './screens/ActivityIndicatorScreen'
 import FlatListScreen from './screens/FlatListScreen'
 import ImageScreen from './screens/ImageScreen'
 import KeyboardAvoidingViewScreen from './screens/KeyboardAvoidingViewScreen'
+import ModalScreen from './screens/ModalScreen'
 
 
 
@@ -29,6 +30,9 @@ const RootStack = createStackNavigator(
     },
     Keyboard: {
       screen: KeyboardAvoidingViewScreen,
+    },
+    Modal: {
+      screen: ModalScreen,
     }
   },
   {
