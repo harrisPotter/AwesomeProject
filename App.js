@@ -6,6 +6,7 @@ import DetailsScreen from './screens/DetailsScreen'
 import ActivityIndicatorScreen from './screens/ActivityIndicatorScreen'
 import FlatListScreen from './screens/FlatListScreen'
 import ImageScreen from './screens/ImageScreen'
+import KeyboardAvoidingViewScreen from './screens/KeyboardAvoidingViewScreen'
 
 
 
@@ -25,6 +26,9 @@ const RootStack = createStackNavigator(
     },
     Image: {
       screen: ImageScreen,
+    },
+    Keyboard: {
+      screen: KeyboardAvoidingViewScreen,
     }
   },
   {

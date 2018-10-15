@@ -27,6 +27,11 @@ class HomeScreen extends Component {
               title="Go to Image"
               onPress={() => this.props.navigation.navigate('Image')}
             />
+
+        <Button 
+              title="Go to KeyboardAvoingView"
+              onPress={() => this.props.navigation.navigate('Keyboard')}
+            />
       </View>
     );
     return (
